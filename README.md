@@ -1,1 +1,1 @@
-# Test: Pulish to GCR
+# Test: Publish to GCR
