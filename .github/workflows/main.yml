@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: soymintc/publish-to-gcr
+        uses: soymintc/publish-to-gcr@v3
         with:
           who-to-greet: 'Luna the Heptacat'
       # Use the output from the `hello` step
