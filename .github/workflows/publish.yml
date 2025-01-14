@@ -18,6 +18,6 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build . --tag ghcr.io/<your-username>/hello-docker-gcr-demo:latest
-        docker push ghcr.io/<your-username>/hello-docker-gcr-demo:latest
+        docker build . --tag ghcr.io/soymintc/hello-docker-gcr-demo:latest
+        docker push ghcr.io/soymintc/hello-docker-gcr-demo:latest
 
